@@ -15,7 +15,8 @@
     } else if ($("#trac-ticket-title").length){
 
       // We're looking at a Track ticket
-      name = $(".track-id").text() + ": " + $("#trac-ticket-title").text() + ": " +$(".description").text();
+      name = $(".trac-id").text() + ": " + $("#trac-ticket-title").text()
+      desc += "\n\n" + $(".description").text();
 
     } else if ($("#issue_header_summary").length){
 
