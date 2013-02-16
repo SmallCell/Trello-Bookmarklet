@@ -6,9 +6,6 @@ javascript:(function(a){window.trelloAppKey="optional";window.trelloIdList="opti
 javascript:(function(a){window.trelloAppKey="7eaad6710f7e644dd781bac106a8eb0a";window.trelloIdList="optional";var b=a.createElement("script");b.src="https://raw.github.com/SmallCell/Trello-Bookmarklet/master/trello_bookmarklet.js";a.getElementsByTagName("head")[0].appendChild(b)})(document);
 ```
 
-Grag it: <a href='javascript:(function(a){window.trelloAppKey="7eaad6710f7e644dd781bac106a8eb0a";window.trelloIdList="optional";var b=a.createElement("script");b.src="https://raw.github.com/SmallCell/Trello-Bookmarklet/master/trello_bookmarklet.js";a.getElementsByTagName("head")[0].appendChild(b)})(document);'>Trello Card</a>
-
-
 This is a <a href="http://en.wikipedia.org/wiki/Bookmarklet">bookmarklet</a> you can use to create a card in <a href="https://trello.com">Trello</a> from ...
 
  - FogBugz cases
