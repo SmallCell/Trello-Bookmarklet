@@ -12,6 +12,11 @@
       // We're looking at a FogBugz case
       name = goBug.ixBug + ": " + goBug.sTitle
 
+    } else if ($("#trac-content").length){
+
+      // We're looking at a Track ticket
+      name = $("#track-id").text() + ": " + $("#summary").text() + ": " +$("#description").text();
+
     } else if ($("#issue_header_summary").length){
 
       // We're looking at a JIRA case in an older JIRA installation
