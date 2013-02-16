@@ -12,10 +12,10 @@
       // We're looking at a FogBugz case
       name = goBug.ixBug + ": " + goBug.sTitle
 
-    } else if ($("#trac-content").length){
+    } else if ($("#trac-ticket-title").length){
 
       // We're looking at a Track ticket
-      name = $("#track-id").text() + ": " + $("#summary").text() + ": " +$("#description").text();
+      name = $(".track-id").text() + ": " + $("#trac-ticket-title").text() + ": " +$(".description").text();
 
     } else if ($("#issue_header_summary").length){
 
